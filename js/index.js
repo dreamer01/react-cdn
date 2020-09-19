@@ -1,7 +1,6 @@
-const rootElement = document.getElementById("root");
-const element = React.createElement(
-  "div",
-  {},
-  React.createElement("h1", {}, "Lets Develop")
+const App = () => (
+  <div>
+    <h1>Lets Build Stuff</h1>
+  </div>
 );
-ReactDOM.render(element, rootElement);
+ReactDOM.render(<App />, document.getElementById("root"));
